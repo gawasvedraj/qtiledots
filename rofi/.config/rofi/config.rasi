@@ -1,0 +1,10 @@
+configuration {
+    show-icons:      true;
+    display-drun:    "";
+    disable-history: false;
+    combi-modi: "window,drun,ssh";
+    matching: "fuzzy";
+    drun-match-fields: "name,generic,exec,categories";
+}
+
+@theme "~/.config/rofi/themes/gruvbox-dark.rasi"
